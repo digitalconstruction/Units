@@ -68,6 +68,20 @@
 
 #######
 
+:CurrencyPerTime rdf:type dicv:QuantityKind, owl:NamedIndividual ;
+		 rdfs:label "CurrencyPerTime" ;
+  		 qudt:applicableUnit :Euro-PER-MO .
+
+:Euro-PER-MO rdf:type dicv:Unit, owl:NamedIndividual ;
+	     rdfs:label "Euro-PER-MO" .
+
+
+#######
+
 :CurrencyPerEnergy rdf:type dicv:QuantityKind, owl:NamedIndividual ;
 		 rdfs:label "CurrencyPerEnergy" ;
-  		 qudt:applicableUnit unit:EURO .
+  		 qudt:applicableUnit :Euro-PER-KiloW-HR .
+
+:Euro-Per-KiloW-HR rdf:type dicv:QuantityKind, owl:NamedIndividual ;
+		 rdfs:label "Euro-PER-KiloW-HR" .
+		 
